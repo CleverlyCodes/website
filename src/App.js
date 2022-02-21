@@ -19,7 +19,7 @@ function App() {
 
         <Typewriter
           options={{
-            strings: ['Websites', 'Applications', 'Content', 'Security', 'Scripts', 'Artificial Intelligence', 'Blockchain'],
+            strings: things,
             autoStart: true,
             pauseFor: 1000,
             loop: true,
