@@ -2,15 +2,27 @@
   text-align: center;
 }
 
+.App-logo-container {
+  width: 22vmin;
+  height: 22vmin;
+  margin: 0 auto;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
+  position: absolute;
+  top: -2vmin;
+  left: -5vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  /* .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+  } */
 }
 
 .App-header {
